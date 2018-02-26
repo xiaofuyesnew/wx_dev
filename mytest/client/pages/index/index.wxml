@@ -12,7 +12,7 @@
             <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
         </view>
     </view>
-
+    测试工程
     <!-- 信道连接测试 -->
     <view class="tunnel">
         <view class="tunnel-text uploader-text">

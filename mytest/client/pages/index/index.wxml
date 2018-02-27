@@ -50,10 +50,16 @@
         </view>
     </view>
 
-    <!-- 上传图片测试 -->
+    <!-- 快速增加CGI -->
     <view class="uploader">
         <navigator url="../addCgi/addCgi" open-type="navigate" class="uploader-text">
             <text>快速增加 CGI</text>
         </navigator>
+    </view>
+
+    <view class='test'>
+      <navigator url="../testPage/testPage" open-type="navigate" class="testNav">
+        <text>测试连接</text>
+      </navigator>
     </view>
 </view>

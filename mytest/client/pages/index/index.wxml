@@ -12,8 +12,8 @@
             <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
         </view>
     </view>
-    测试工程
-    <!-- 信道连接测试 -->
+
+    <!-- 请求测试 -->
     <view class="tunnel">
         <view class="tunnel-text uploader-text">
             <text bindtap="doRequest">请求（是否带有登陆态）</text>
@@ -57,8 +57,8 @@
         </navigator>
     </view>
 
-    <view class='test'>
-      <navigator url="../testPage/testPage" open-type="navigate" class="testNav">
+    <view class='uploader'>
+      <navigator url="../testPage/testPage" open-type="navigate" class="uploader-text">
         <text>测试连接</text>
       </navigator>
     </view>
